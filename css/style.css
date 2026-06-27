@@ -1,0 +1,399 @@
+@charset "utf-8";
+.lightgreen-section{
+    background-color: #CDE7BE80;
+}
+
+.green-section{
+    background-color: #85BE9F;
+}
+
+body{
+    font-family: 'Noto Sans JP', "メイリオ", "Arial";
+    font-size: 16px;
+    color: #896978;
+    
+}
+
+.contents-area{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.jikosyoukai{
+    text-align: center;
+    padding: 100px 0 150px 0;
+}
+
+h2{
+    font-size: 29px;
+    font-family: 'Noto Serif JP', "メイリオ", "Arial";
+}
+
+h3{
+    font-size: 16px;
+    font-family: 'Noto Serif JP', "メイリオ", "Arial";
+}
+
+.jikosyoukai-zone{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+
+.jikosyoukai-text li{
+    list-style: none;
+    font-weight: bold;
+    padding: 7px 0; 
+    margin-right: 180px;
+    flex: 1;
+}
+
+.header lightgreen-section{
+    width: 100%;
+}
+
+.gnav{
+    padding-right: 70px;
+}
+
+.my-portfolio-logo{
+    padding-left: 70px;
+}
+
+.gnav ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.gnav li:last-child{
+    background-color: #FDE2FF;
+    padding: 12px;
+}
+
+.main-visual{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.normal-image{
+    max-width: 423px;
+    max-height: 305px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.mbti {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.infj-t-photo {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 450px;
+    right: 222px;
+}
+
+
+h3{
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.my-personality-text-title{
+    padding-left: 90px;
+}
+
+.my-personality-text{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.my-personality-text2{
+    flex: 1;
+    padding-left: 90px;
+}
+
+.normal-image-2{
+    max-width: 423px;
+    max-height: 305px;
+    flex: 1;
+    margin-right: 70px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.gnav li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-icon-logo{
+    padding-left: 70px;
+}
+
+.footer-menu{
+    padding-right: 70px;
+}
+
+.footer-menu li{
+    list-style: none;
+    font-weight: bold;
+    font-family: "Crimson Text";
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    width: 220px;
+    padding-bottom: 30px;
+}
+
+.footer-menu-text{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon-logo img{
+    display: block;
+}
+
+.instagram-x-icons{
+    display: flex;
+    gap: 50px;
+    padding-top: 25px;
+}
+
+.instagram-x-icons2 img{
+    display: block;
+    text-align: center;
+}
+
+.instagram-x-icons2 p{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.Copyright{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.works{
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 100px;
+}
+
+.normal-image-3{
+    max-width: 423px;
+    max-height: 305px;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.works-zone{
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+}
+
+.my-works-text2 th{
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.my-works-text2 .my-works-text-now{
+    padding-top: 0px;
+    vertical-align: top;
+    line-height: 2;
+
+}
+
+
+.my-skills{
+    text-align: center;
+    margin-top: 68px;
+    padding-bottom: 60px;
+}
+
+.my-skills-title{
+    margin-bottom: 20px;
+}
+
+.skill-title{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+table.my-skills-zone2{
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.my-skills-zone2 tr td{
+    border: 3px solid #85BE9F;
+    border-collapse: collapse;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.special-skills-zone{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.special-skills{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.special-skills-text{
+    padding-bottom: 20px;
+}
+
+.special-skills-text-zone p{
+    line-height: 2;
+}
+
+.special-skills-title{
+    font-size: 22px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+
+}
+
+.dance-image{
+    display: flex;
+    align-items: flex-start;
+}
+
+.dance-image-left{
+    width: 250px;
+}
+
+.dance-image-right{
+    width: 250px;
+    margin-top: 100px;
+}
+
+.my-hobbys{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.hobbys{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.my-hobby-zone{
+    display: inline-block;
+    padding-top: 70px;
+    flex: 1;
+}
+
+.my-hobby-zone img{
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.my-hobby-zone-texts{
+    text-align: center;
+}
+
+form{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+input{
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    width: 800px;
+    height: 46px;
+}
+
+textarea{
+    background-color: #FFFFFF;
+    border: 1px solid #000;
+    width: 800px;
+    height: 220px;
+}
+
+.contact-form-area td{
+    width: 800px;
+}
+
+button{
+    text-align: center;
+    margin: auto;
+}
+
+.contact-form-area th{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.contact-form-area .massage-area{
+    padding-top: 65px;
+
+}
+
+.sousin-button{
+    background-color: #FDE2FF;
+    width: 310px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 107px;
+    margin-bottom: 113px;
+}
+
+.sousin-button button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #896978;
+}
+
+.contact-form{
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
