@@ -140,6 +140,13 @@ h3{
 .gnav li{
     list-style: none;
     font-weight: bold;
+    color: #896978;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.gnav a:hover {
+  color: #896978;
 }
 
 .footer-area{
@@ -174,6 +181,11 @@ h3{
     gap: 60px;
     justify-content: center;
     align-items: center;
+    
+}
+
+.footer-menu-text a:hover{
+    color: #FFFFFF;
 }
 
 .footer-icon-logo img{
